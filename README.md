@@ -21,6 +21,9 @@ This repository is part of the MongoDB [Jumpstart](https://www.youtube.com/playl
   ![Step 2](/readme_img/2.png)
   - Now copy your connection string. This is the MONGODB_URI
   ![Step 3](/readme_img/3.png)
+
+- Run `$env:NODE_OPTIONS = "--openssl-legacy-provider"`
+
 - Run `npm run dev`
 
 ## Questions?
