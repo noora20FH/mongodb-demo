@@ -7,27 +7,21 @@ For up-to-date resources, please refer to the [MongoDB Developer Center](https:/
 
 This repository is part of the MongoDB [Jumpstart](https://www.youtube.com/playlist?list=PL4RCxklHWZ9v2lcat4oEVGQhZg6r4IQGV) series on YouTube. Each branch corresponds to an episode. 
 
-## Episodes
+## Instructions
 
-- Episode 1
-  - Video: [MongoDB Explained in 10 Minutes](https://youtu.be/RGfFpQF0NpE)
-- Episode 2
-  - Video: [Intro to MongoDB Atlas in 10 mins](https://youtu.be/xrc7dIO_tXk)
-- Episode 3
-  - Video: [Compass - The GUI for MongoDB in 10 mins](https://youtu.be/YBOiX8DwinE)
-  - Branch: [compass](https://github.com/mongodb-developer/jumpstart-series/tree/compass) 
-- Episode 4
-  - Video: [Serverless Functions Explained | MongoDB Realm Backend-as-a-Service](https://youtu.be/Evp3xTzWCu4)
-  - Branch: [realm-functions](https://github.com/mongodb-developer/jumpstart-series/tree/realm-functions)
-- Episode 5
-  - Video: [Easy Frontend MongoDB Integration | MongoDB, Next.js, & Tailwind CSS](https://youtu.be/xIrtGeggw0E)
-  - Branch: [frontend-build](https://github.com/mongodb-developer/jumpstart-series/tree/frontend-build)
-- Episode 6
-  - Video: [MongoDB Atlas Search to Easily Find Your Data | Search & Autocomplete Implementation](https://youtu.be/jnxnhbTO2RA)
-  - Branch: [altas-search](https://github.com/mongodb-developer/jumpstart-series/tree/atlas-search)
-- Episode 7
-  - Video: [Atlas Data Lake | Federated Query of .csv & .json files from AWS S3 Bucket | Jumpstart 2021](https://youtu.be/e4BNH8SeGVs)
-  - Branch: [datalake](https://github.com/mongodb-developer/jumpstart-series/tree/datalake)
+### Connect to your MongoDB Atlas Cluster
+
+- Be sure to sign up for a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) account
+- After cloning this repo, from the terminal run: `npm install`
+- Rename `.env.local.example` to `.env.local`
+- Enter your MONGODB_URI in `.env.local`
+  - From your Atlas Dashboard under Databases, click "Connect"
+  ![Step 1](/readme_img/1.png)
+  - Then select "Connect your application"
+  ![Step 2](/readme_img/2.png)
+  - Now copy your connection string. This is the MONGODB_URI
+  ![Step 3](/readme_img/3.png)
+- Run `npm run dev`
 
 ## Questions?
 
